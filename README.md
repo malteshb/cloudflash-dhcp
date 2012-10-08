@@ -159,7 +159,7 @@ On success it returns JSON data with the UUID for the service created.
 Describe Service
 ----------------
 
-    Verb	   URI	                     Description
+    Ver     URI	                          Description
     GET	    /services/service-id	  Show a service in VCG specified by service-ID
 
 **Example Request and Response**
@@ -191,7 +191,7 @@ Describe Service
 Delete a service
 ----------------
 
-    Verb	  URI	                    Description
+    Verb	URI	                  Description
     DELETE	/services/service-id	  Delete a service in VCG specified by service-ID
 
 
@@ -239,7 +239,7 @@ This API is used to perform the action like start, stop, restart and sync on the
 Post DHCP subnet Configuration
 -------------------------------
 
-    Verb	URI	      		         Description
+    Verb	URI	      		 Description
     POST	/network/dhcp/subnet	 Update the dhcp udhcpd.conf file in VCG.
 
 On success it returns JSON data with the service-id, config success.
@@ -286,7 +286,7 @@ Upon error, error code 500 will be returned
 Post DHCP router Configuration
 -------------------------------
 
-    Verb    URI	   		          Description
+    Verb        URI	   		 Description
     POST	/network/dhcp/router	 Update the dhcp udhcpd.conf file in VCG.
 
 On success it returns JSON data with the service-id, service-name, config success.
@@ -320,8 +320,8 @@ Upon error, error code 500 will be returned
 Post DHCP time server  Configuration
 -------------------------------------
 
-    Verb    URI        		      Description
-    POST	/network/dhcp/timesvr	 Update the dhcp udhcpd.conf file in VCG.
+    Verb    URI        		         Description
+    POST    /network/dhcp/timesvr	 Update the dhcp udhcpd.conf file in VCG.
 
 On success it returns JSON data with the service-id, service-name, config success.
 
@@ -355,8 +355,8 @@ Upon error, error code 500 will be returned
 Post DHCP name server Configuration
 -----------------------------------
 
-    Verb    URI        		      Description
-    POST	/network/dhcp/namesvr	 Update the dhcp udhcpd.conf file in VCG.
+    Verb    URI        		         Description
+    POST    /network/dhcp/namesvr	 Update the dhcp udhcpd.conf file in VCG.
 
 On success it returns JSON data with the service-id, service-name, config success.
 
@@ -390,8 +390,8 @@ Upon error, error code 500 will be returned
 Post DHCP dns Configuration
 ----------------------------
 
-    Verb    URI      		         Description
-    POST	/network/dhcp/dns  	      Update the dhcp udhcpd.conf file in VCG.
+    Verb    URI      		      Description
+    POST    /network/dhcp/dns  	      Update the dhcp udhcpd.conf file in VCG.
 
 On success it returns JSON data with the service-id, service-name, config success.
 
@@ -424,8 +424,8 @@ Upon error, error code 500 will be returned
 Post DHCP log server Configuration
 -----------------------------------
 
-    Verb    URI        		      Description
-    POST	/network/dhcp/logsvr	 Update the dhcp udhcpd.conf file in VCG.
+    Verb    URI        		         Description
+    POST    /network/dhcp/logsvr	 Update the dhcp udhcpd.conf file in VCG.
 
 On success it returns JSON data with the service-id, service-name, config success.
 
@@ -458,8 +458,8 @@ Upon error, error code 500 will be returned
 Post DHCP cookie server Configuration
 --------------------------------------
 
-    Verb    URI        		      Description
-    POST	/network/dhcp/cookiesvr	 Update the dhcp udhcpd.conf file in VCG.
+    Verb    URI        		         Description
+    POST    /network/dhcp/cookiesvr	 Update the dhcp udhcpd.conf file in VCG.
 
 On success it returns JSON data with the service-id, service-name, config success.
 
@@ -492,8 +492,8 @@ Upon error, error code 500 will be returned
 Post DHCP lpr server Configuration
 --------------------------------------
 
-    Verb    URI          	        Description
-    POST	/network/dhcp/lprsvr	 Update the dhcp udhcpd.conf file in VCG.
+    Verb    URI          	         Description
+    POST    /network/dhcp/lprsvr	 Update the dhcp udhcpd.conf file in VCG.
 
 On success it returns JSON data with the service-id, service-name, config success.
 
@@ -527,7 +527,7 @@ Post DHCP ntp server Configuration
 --------------------------------------
 
     Verb    URI          	        Description
-    POST	/network/dhcp/ntpsrv	 Update the dhcp udhcpd.conf file in VCG.
+    POST    /network/dhcp/ntpsrv	Update the dhcp udhcpd.conf file in VCG.
 
 On success it returns JSON data with the service-id, service-name, config success.
 
@@ -560,7 +560,7 @@ Post DHCP wins server Configuration
 ------------------------------------
 
     Verb    URI          	    Description
-    POST	/network/dhcp/wins	 Update the dhcp udhcpd.conf file in VCG.
+    POST    /network/dhcp/wins	    Update the dhcp udhcpd.conf file in VCG.
 
 On success it returns JSON data with the service-id, service-name, config success.
 
@@ -595,8 +595,8 @@ Upon error, error code 500 will be returned
 Delete subnet config from DHCP configuration
 ---------------------------------------------
 
-    Verb	URI	                           Description
-    DELETE  /network/dhcp/subnet/:id 	  Delete subnet config from udhcpd.conf file
+    Verb	URI	                          Description
+    DELETE      /network/dhcp/subnet/:id 	  Delete subnet config from udhcpd.conf file
 
 
 On Success returns 200 with JSON data
@@ -615,7 +615,7 @@ On Success returns 200 with JSON data
 Delete router config from DHCP configuration
 ---------------------------------------------
 
-    Verb    URI	                        Description
+    Verb    URI	                          Description
     DELETE  /network/dhcp/router/:id 	  Delete router config from udhcpd.conf file
 
 
@@ -635,7 +635,7 @@ On Success returns 200 with JSON data
 Delete time server config from DHCP configuration
 --------------------------------------------------
 
-    Verb    URI	                         Description
+    Verb    URI	                          Description
     DELETE  /network/dhcp/timesvr/:id 	  Delete time server config from udhcpd.conf file
 
 
@@ -656,7 +656,7 @@ On Success returns 200 with JSON data
 Delete name server config from DHCP configuration
 --------------------------------------------------
 
-    Verb    URI	                         Description
+    Verb    URI	                          Description
     DELETE  /network/dhcp/namesvr/:id 	  Delete name server config from udhcpd.conf file
 
 
@@ -677,7 +677,7 @@ On Success returns 200 with JSON data
 Delete dns config from DHCP configuration
 ------------------------------------------
 
-    Verb    URI	                     Description
+    Verb    URI	                          Description
     DELETE  /network/dhcp/dns/:id 	  Delete dns config from udhcpd.conf file
 
 
@@ -697,7 +697,7 @@ On Success returns 200 with JSON data
 Delete log server config from DHCP configuration
 -------------------------------------------------
 
-    Verb    URI	                        Description
+    Verb    URI	                          Description
     DELETE  /network/dhcp/logsvr/:id 	  Delete log server config from udhcpd.conf file
 
 
@@ -718,7 +718,7 @@ On Success returns 200 with JSON data
 Delete cookie server config from DHCP configuration
 ----------------------------------------------------
 
-    Verb    URI	                           Description
+    Verb    URI	                                  Description
     DELETE  /network/dhcp/cookiesvr/:id 	  Delete cookie server config from udhcpd.conf file
 
 
@@ -739,7 +739,7 @@ On Success returns 200 with JSON data
 Delete lpr server config from DHCP configuration
 -------------------------------------------------
 
-    Verb    URI	                        Description
+    Verb    URI	                          Description
     DELETE  /network/dhcp/lprsvr/:id 	  Delete lpr server config from udhcpd.conf file
 
 
@@ -759,7 +759,7 @@ On Success returns 200 with JSON data
 Delete ntp server config from DHCP configuration
 -------------------------------------------------
 
-    Verb    URI	                        Description
+    Verb    URI	                          Description
     DELETE  /network/dhcp/ntpsrv/:id 	  Delete ntp server config from udhcpd.conf file
 
 
@@ -779,7 +779,7 @@ On Success returns 200 with JSON data
 Delete wins config from DHCP configuration
 -------------------------------------------
 
-    Verb    URI	                      Description
+    Verb    URI	                          Description
     DELETE  /network/dhcp/wins/:id 	  Delete win server config from udhcpd.conf file
 
 
@@ -802,7 +802,7 @@ On Success returns 200 with JSON data
 Describe DHCP 
 --------------
 
-    Verb	   URI	                 Description
+    Verb    URI	                  Description
     GET	    /network/dhcp/:id	  Show DHCP config info in VCG specified by service-ID
 
 **Example Request and Response**

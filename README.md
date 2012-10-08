@@ -1,4 +1,3 @@
-
 cloudflash
 ==========
 
@@ -64,8 +63,8 @@ Plan is to have OAuth scheme of authentication.
  List Services
 --------------
 
-    Verb   URI       Description
-    GET	/services	Lists summary of services configured in VCG identified by service ID.
+    Verb   URI          Description
+    GET	   /services	Lists summary of services configured in VCG identified by service ID.
 
 
 Note: The request does not require a message body.

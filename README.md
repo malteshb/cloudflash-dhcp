@@ -37,6 +37,69 @@ Note: During new service post, deb package uses npm to fetch the published packa
   <tr>
     <td>POST</td><td>/services/service-id/action</td><td>Execute command on the VCG</td>
   </tr>
+  <tr>     
+    <td>POST</td><td>/network/dhcp/subnet</td><td>Update the DHCP configuration with subnet details in VCG</td>
+  </tr>
+  <tr>
+      <td>POST</td><td>/network/dhcp/router</td><td>Update the DHCP configuration with router details in VCG</td>
+  </tr>
+  <tr>
+      <td>POST</td><td>/network/dhcp/timesvr</td><td>Update the DHCP configuration with time server details in VCG</td>
+  </tr>
+  <tr>
+      <td>POST</td><td>/network/dhcp/namesvr</td><td>Update the DHCP configuration with name server details in VCG</td>
+  </tr>
+  <tr>
+      <td>POST</td><td>/network/dhcp/dns</td><td>Update the DHCP configuration with DNS details in VCG</td>
+  </tr>
+  <tr>
+      <td>POST</td><td>/network/dhcp/logsvr</td><td>Update the DHCP configuration with  log server details in VCG</td>
+  </tr>
+  <tr>
+      <td>POST</td><td>/network/dhcp/cookiesvr</td><td>Update the DHCP configuration with cookie server details in VCG</td>
+  </tr>
+  <tr>
+      <td>POST</td><td>/network/dhcp/lprsvr</td><td>Update the DHCP configuration with lprsvr details in VCG</td>
+  </tr>
+  <tr>
+      <td>POST</td><td>/network/dhcp/ntpsrv</td><td>Update the DHCP configuration with NTP server details in VCG</td>
+  </tr>
+  <tr>
+      <td>POST</td><td>/network/dhcp/wins</td><td>Update the DHCP configuration with WINS details in VCG</td>
+  </tr>
+  <tr>
+      <td>DELETE</td><td>/network/dhcp/subnet/:id</td><td>Delete subnet config from DHCP configuration by id</td>  
+  </tr>
+  <tr>
+      <td>DELETE</td><td>/network/dhcp/router/:id</td><td>Delete router config from DHCP configuration by id</td>
+  </tr>
+  <tr>
+      <td>DELETE</td><td>/network/dhcp/timesvr/:id</td><td>Delete time server config from DHCP configuration by id</td>
+  </tr>
+  <tr>
+      <td>DELETE</td><td>/network/dhcp/namesvr/:id</td><td>Delete name server config from DHCP configuration by id</td>
+  </tr>
+  <tr>
+      <td>DELETE</td><td>/network/dhcp/dns/:id</td><td>Delete dns config from DHCP configuration by id</td>
+  </tr>
+  <tr>
+      <td>DELETE</td><td>/network/dhcp/logsvr/:id</td><td>Delete log server config from DHCP configuration by id</td>
+  </tr>
+  <tr>
+      <td>DELETE</td><td>/network/dhcp/cookiesvr/:id</td><td>Delete cookie server config from DHCP configuration by id</td>
+  </tr>
+  <tr>
+      <td>DELETE</td><td>/network/dhcp/lprsvr/:id</td><td>Delete lpr server config from DHCP configuration by id</td>
+  </tr>
+  <tr>
+      <td>DELETE</td><td>/network/dhcp/ntpsrv/:id</td><td>Delete ntp server config from DHCP configuration by id</td>
+  </tr>
+  <tr>
+      <td>DELETE</td><td>/network/dhcp/wins/:id</td><td>Delete win server config from DHCP configuration by id</td>
+  </tr>
+  <tr>
+      <td>GET</td><td>/network/dhcp/:id</td><td>Show DHCP config info in VCG specified by ID</td>
+  </tr>
 
 </table>
 

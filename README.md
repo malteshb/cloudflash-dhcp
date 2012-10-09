@@ -277,7 +277,10 @@ On success it returns JSON data with the service-id, config success.
 ### Response JSON
 
 
-	{ "result": "success" }
+    {
+      "id": "85108146-6233-42d9-8f1c-2c8fca63f236",
+      "result": "success"
+    }
 
 
 Upon error, error code 500 will be returned
@@ -311,7 +314,10 @@ On success it returns JSON data with the service-id, service-name, config succes
 ### Response JSON
 
 
-	{ "result": "success" }
+    {
+      "id": "85108146-6233-42d9-8f1c-2c8fca63f236",
+      "result": "success"
+    }
 
 
 Upon error, error code 500 will be returned
@@ -345,7 +351,10 @@ On success it returns JSON data with the service-id, service-name, config succes
 ### Response JSON
 
 
-	{ "result": "success" }
+    {
+      "id": "85108146-6233-42d9-8f1c-2c8fca63f236",
+      "result": "success"
+    }
 
 
 Upon error, error code 500 will be returned
@@ -380,7 +389,10 @@ On success it returns JSON data with the service-id, service-name, config succes
 ### Response JSON
 
 
-	{ "result": "success" }
+    {
+      "id": "85108146-6233-42d9-8f1c-2c8fca63f236",
+      "result": "success"
+    }
 
 
 Upon error, error code 500 will be returned
@@ -415,7 +427,10 @@ On success it returns JSON data with the service-id, service-name, config succes
 ### Response JSON
 
 
-	{ "result": "success" }
+    {
+      "id": "85108146-6233-42d9-8f1c-2c8fca63f236",
+      "result": "success"
+    }
 
 
 Upon error, error code 500 will be returned
@@ -449,7 +464,10 @@ On success it returns JSON data with the service-id, service-name, config succes
 ### Response JSON
 
 
-	{ "result": "success" }
+    {
+      "id": "85108146-6233-42d9-8f1c-2c8fca63f236",
+      "result": "success"
+    }
 
 
 Upon error, error code 500 will be returned
@@ -483,7 +501,10 @@ On success it returns JSON data with the service-id, service-name, config succes
 ### Response JSON
 
 
-	{ "result": "success" }
+    {
+      "id": "85108146-6233-42d9-8f1c-2c8fca63f236",
+      "result": "success"
+    }
 
 
 Upon error, error code 500 will be returned
@@ -517,7 +538,10 @@ On success it returns JSON data with the service-id, service-name, config succes
 ### Response JSON
 
 
-	{ "result": "success" }
+    {
+      "id": "85108146-6233-42d9-8f1c-2c8fca63f236",
+      "result": "success"
+    }
 
 
 Upon error, error code 500 will be returned
@@ -551,7 +575,10 @@ On success it returns JSON data with the service-id, service-name, config succes
 ### Response JSON
 
 
-	{ "result": "success" }
+    {
+      "id": "85108146-6233-42d9-8f1c-2c8fca63f236",
+      "result": "success"
+    }
 
 
 Upon error, error code 500 will be returned
@@ -583,9 +610,10 @@ On success it returns JSON data with the service-id, service-name, config succes
 
 ### Response JSON
 
-
-	{ "result": "success" }
-
+    {
+      "id": "85108146-6233-42d9-8f1c-2c8fca63f236",
+      "result": "success"
+    }
 
 Upon error, error code 500 will be returned
 

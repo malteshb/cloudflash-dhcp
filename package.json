@@ -1,0 +1,22 @@
+{
+  "name": "cloudflash-network",
+  "version": "0.5.9",
+  "dependencies": {
+    "zappajs": "0.3.x",
+    "dirty":"0.9.x",
+    "json-schema":"0.2.x",
+    "fileops":"0.1.x"
+  },
+  "engines": {
+    "node": "0.6.x"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "author": "Ravi Chunduru",
+  "description": "cloudflash network module implements network and dhcp configuration on unix systems",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/clearpath-networks/cloudflash-network.git"
+  },
+  "main": "./lib/interfaces"
+}

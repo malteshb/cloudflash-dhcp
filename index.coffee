@@ -1,1 +1,1 @@
-module.exports = require './lib/networklib'
+module.exports = require './lib/interfaces'

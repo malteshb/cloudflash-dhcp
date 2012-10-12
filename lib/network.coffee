@@ -4,7 +4,7 @@ interfaces = require './interfaces'
 
     iface = new interfaces
     filename = "/etc/network/interfaces.tmp"
-    dhcpfilename = "/home/maltesh/udhcpd.conf"
+    dhcpfilename = "/etc/udhcpd.conf"
   
     validateIfaceSchema = ->
         console.log 'in validate schema'
